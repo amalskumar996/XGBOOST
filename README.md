@@ -1,4 +1,13 @@
 # XGBOOST - Amal S Kumar M190004MS 
+There are 2 main types of decision tree ensemble:
+
+Bagging
+Boosting
+In Bagging we combine predictors from multiple-decision trees through a majority voting mechanism.
+
+In Boosting we build models sequentially by minimizing the error from previous models while increasing (or boosting) influence of high performance models.
+
+If compare new employee hiring process by few recruitment specialists in a company (sequential interviews) with Boosting, here each next recruitment specialist is based his decision on the assesment of the candidate by the previous manager.This speed up hiring process, as unsuitable candidates are immediately eliminated.
 XGBoost is an algorithm that has recently been dominating applied machine learning and it is an  implementation of gradient boosted decision trees designed for speed and performance. This algorithm goes by lots of different names such as gradient boosting, multiple additive regression trees, stochastic gradient boosting or gradient boosting machines.
 
 Boosting is an ensemble technique where new models are added to correct the errors made by existing models. Models are added sequentially until no further improvements can be made. A popular example is the AdaBoost algorithm that weights data points that are hard to predict.
