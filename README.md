@@ -2,8 +2,8 @@
 There are 2 main types of decision tree ensemble:
 
 Bagging <br />
-
 Boosting <br />
+
 In Bagging we combine predictors from multiple-decision trees through a majority voting mechanism.
 
 In Boosting we build models sequentially by minimizing the error from previous models while increasing (or boosting) influence of high performance models.
